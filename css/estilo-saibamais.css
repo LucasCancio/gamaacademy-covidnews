@@ -1,0 +1,14 @@
+main{
+justify-content: center;
+align-items: center;
+}
+.fontes{
+    padding: 20px;
+    font-size: 1.4em;
+}
+.fontes li a{
+    font-weight: bold;
+}
+.fontes li a:hover{
+    color: rgb(128, 62, 190);
+}
