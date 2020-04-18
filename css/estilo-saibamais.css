@@ -2,9 +2,18 @@ main{
 justify-content: center;
 align-items: center;
 }
+.content{
+    height: 100%;
+}
 .fontes{
+    height: 70%;
+    
     padding: 20px;
     font-size: 1.4em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .fontes li a{
     font-weight: bold;
