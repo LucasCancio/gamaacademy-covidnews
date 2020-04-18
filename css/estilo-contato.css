@@ -1,12 +1,17 @@
 main {
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  justify-content: center;
 
+  height: 750px;
   overflow-y: hidden;
+
+  justify-content: center;
+  align-items: center;
+  
+  padding: 1%;
 }
 
-main iframe {
-  height: 100%;
+main iframe html {
   overflow-y: hidden;
 }

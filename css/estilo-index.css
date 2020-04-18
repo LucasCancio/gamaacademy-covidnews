@@ -28,10 +28,9 @@ main a {
   grid-column-end: span 3;
 }
 
-.main {
+main {
   margin: 0 auto;
-  max-width: 1040px;
-  padding: 10px;
+  height: 100vh;
 }
 
 .artigo {

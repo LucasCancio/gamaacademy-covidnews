@@ -1,3 +1,9 @@
+.container-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .container-img img {
   width: 120px;
 }
@@ -11,10 +17,8 @@
   display: flex;
   justify-content: space-between;
 }
-
-.social-medias a {
-  display: flex;
-  align-items: center;
+.social-medias a{
+  padding: 10px;
 }
 
 .social-medias img {
@@ -23,6 +27,8 @@
 
 
 main {
+  margin-top: 5%;
+  
   display: flex;
   flex-direction: column;
   height: auto;
@@ -38,6 +44,8 @@ main {
   justify-content: space-between;
 
   align-items: center;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 div {
