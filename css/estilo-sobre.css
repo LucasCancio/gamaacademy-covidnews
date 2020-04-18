@@ -1,0 +1,55 @@
+.container-img img {
+  width: 120px;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.social-medias {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-medias a {
+  display: flex;
+  align-items: center;
+}
+
+.social-medias img {
+  width: 40px;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-items: center;
+
+  overflow-y: hidden;
+}
+
+.content {
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+div {
+  margin: 10px;
+}
+
+.container {
+  font-size: 1.4em;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
