@@ -5,7 +5,7 @@
 }
 
 html {
-  background: rgb(175, 198, 213);
+  background: rgb(205, 217, 224);
   font-size: 14px;
   min-width: 300px;
   overflow-x: hidden;
@@ -34,11 +34,21 @@ main {
 }
 
 .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title h2{
   text-align: center;
   font-size: 2.7em;
 
-  text-shadow:  2px 2px rgb(53, 131, 186);
+  text-shadow:  2px 2px rgb(38, 89, 163);
   color: white;
+}
+
+.title img{
+  padding: 20px;
+  width:50px;
 }
 
 a {
@@ -90,6 +100,9 @@ header {
   font-size: 1.1em;
   color: white;
 }
+.feito-por img{
+  width: 100px;
+}
 
 .menu {
   display: flex;
@@ -120,13 +133,9 @@ header {
 }
 
 .menu li a:hover, #active{
-  color: rgb(125, 167, 196);
+  color: rgb(38, 89, 163);
 }
 
-#active{
-  text-shadow:  0.3px 0.3px  white;
-  
-}
 #active:hover{
-  color: rgb(142, 175, 199);
+  color: rgb(48, 96, 167);
 }

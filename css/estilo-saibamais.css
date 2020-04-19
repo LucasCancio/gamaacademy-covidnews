@@ -16,8 +16,10 @@ align-items: center;
     justify-content: space-between;
 }
 .fontes li a{
+    padding: 10px;
     font-weight: bold;
+    
 }
 .fontes li a:hover{
-    color: rgb(128, 62, 190);
+    color: rgba(128, 62, 190,.6);
 }
