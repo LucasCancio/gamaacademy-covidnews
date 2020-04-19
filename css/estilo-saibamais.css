@@ -4,12 +4,17 @@ align-items: center;
 }
 .content{
     height: 100%;
+    font-size: 1.4em;
+}
+.content p{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3em;
 }
 .fontes{
     height: 70%;
     
     padding: 20px;
-    font-size: 1.4em;
 
     display: flex;
     flex-direction: column;
